@@ -17,9 +17,9 @@
 
 <script>
 
-import Layout from '../shared/Layout.vue';
+// import Layout from '../shared/Layout.vue';
     export default {
-        layout:Layout,
+        // layout:'layout',
         props: {
          
             status: {
