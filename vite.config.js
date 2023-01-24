@@ -4,6 +4,8 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
     plugins: [
+
+      
         laravel({
             input: [
                 'resources/sass/app.scss',
@@ -20,7 +22,7 @@ export default defineConfig({
             },
         }),
     ],
-    resolve: {
+    resolve: { 
         alias: {
             vue: 'vue/dist/vue.esm-bundler.js',
         },

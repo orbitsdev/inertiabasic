@@ -10,6 +10,7 @@ import CLink from './components/CLink.vue'
 import Layout from  './shared/Layout.vue';
 
 
+
 createInertiaApp({
   async resolve(name) {
     const page = await resolvePageComponent(
